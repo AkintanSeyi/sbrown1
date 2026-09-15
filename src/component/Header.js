@@ -351,7 +351,8 @@ const [menuOpen, setMenuOpen] = useState(false);
 
             {/* OUR FIGHT */}
             <a
-              href="/our-fight/"
+           
+              onClick={() => navigate("/our-fight")}
               className="
                 text-[19px]
                 font-extrabold
@@ -367,7 +368,7 @@ const [menuOpen, setMenuOpen] = useState(false);
 
             {/* STORE */}
             <a
-              href="#"
+              
               className="
                 text-[19px]
                 font-extrabold
@@ -438,7 +439,7 @@ const [menuOpen, setMenuOpen] = useState(false);
                 DONATE BUTTON
             ================================================== */}
             <a
-           href = "#donate"
+          
               className="
                 ml-1
                 bg-[#fdb52b]
